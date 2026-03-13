@@ -2,8 +2,8 @@
 
 int main()
 {
-    for(i=1; i<10; i++){
-        for(r=1; r<10; r++){
+    for(int i=1; i<10; i++){
+        for(int r=1; r<10; r++){
             printf("%d * %d = %d", i, j, (r*i));
         }
     }
