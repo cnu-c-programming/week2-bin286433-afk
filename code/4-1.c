@@ -10,17 +10,18 @@ int main()
 
     switch(tool){
         case '+' :
-            printf(num1+num2);
+            printf("%d", (num1+num2));
             break;
         case '-' :
-            printf(num1-num2);
+            printf("%d", (num1-num2));
             break;
         case '*' :
-            printf(num1*num2);
+            printf("%d", (num1*num2));
             break;
         case '/':
-            printf(num1/num2);
+            printf("%d", (num1/num2));
             break;
+    }
 
     return 0;
 }
