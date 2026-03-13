@@ -12,6 +12,7 @@ int main()
             printf("false");
         }
         else printf("true");
+    }
 
     return 0;
 }
